@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head value="yes">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="script/main.mjs" type="module" defer></script>
+        <script src="script/api.mjs" type="module" defer></script>
+        <script src="script/renderHeader.mjs" type="module" defer></script>
+        <title>Trivia Welcome/Start page</title>
+    </head>
+    <body>
+        <header id="header">
+        </header>
+        <main class="cont col">
+            <div class="cont">
+                <div>
+                    <h1>Welcome to a game of Trivia</h1>
+                    <div class="cont col" id="menu">
+                        <select id="category">
+                            Hi, If you see me somthing broke!
+                        </select>
+                        <div>
+                            <input name="difficult" type="radio" value="easy"><span>Easy&emsp;</span>
+                            <input name="difficult" type="radio" value="medium"><span>Medium&emsp;</span>
+                            <input name="difficult" type="radio" value="hard"><span>Hard&emsp;</span>
+                        </div>
+                        <div>
+                            <input name="qtype" type="radio" value="t/f"><span>True/False&emsp;</span>
+                            <input name="qtype" type="radio" value="multichoice"><span>Multiple Choice&emsp;</span>
+                        </div>
+                        <input type="number" id="num" placeholder="How many Questions"><br>
+                        <div class="cont"><button type="button" onclick="btnClick();" id="start"><a href="game.html">Start</a></button></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+.cont, .header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    flex-direction: column;
+}
+
+body {
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+}
+
+#menu{
+    height: 250px;
+}
+
+#start{
+    width: 50px;
+}
+
+.header, .fill{
+    width: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+.header{
+    height: 75px;
+    background-color: aquamarine;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+a, .link{
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    font-weight: 900;
+    font-size: large;
+}
