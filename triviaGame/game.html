@@ -2,10 +2,36 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
-        <script src="script/main.mjs" type="module" defer></script>
+        <script src="https://kit.fontawesome.com/ed99046da8.js" crossorigin="anonymous"></script>
+        <script src="script/questionCheck.js" defer></script>
+        <script src="script/getQA.js" defer></script>
         <title>Playing Trivia</title>
     </head>
     <body>
-
+        <header class="cont info header">
+            <div class="link cont">
+                <i class="fa-solid fa-clock"></i>
+                <div id="timer">timer</div>
+            </div>
+            <div id="qNum" class="link">
+                question number
+            </div>
+            <a class="link cont col" href="index.html">
+                <div><i class="fa-solid fa-right-from-bracket"></i></div>
+                <div>Exit</div>
+            </a>
+        </header>
+        <main class="cont">
+            <div class="cont col">
+                <div id="rSlashW"></div>
+                <div id="question">
+                    what is true
+                </div>
+                <div id="options">
+                    0, 1, false, ""
+                </div>
+                <button type="button" onclick="checkQA();">Answer Question</button>
+            </div>
+        </main>
     </body>
 </html>
